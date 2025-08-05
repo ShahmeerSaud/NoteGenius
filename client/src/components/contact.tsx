@@ -23,14 +23,14 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "ShahmeerSaud.internship@gmail.com",
-    href: "mailto:ShahmeerSaud.internship@gmail.com"
+    value: "shahmeersaud.internship@gmail.com",
+    href: "mailto:shahmeersaud.internship@gmail.com"
   },
   {
     icon: Linkedin,
     title: "LinkedIn",
-    value: "linkedin.com/in/shahmeersaud",
-    href: "https://linkedin.com/in/shahmeersaud"
+    value: "linkedin.com/in/ShahmeerSaud",
+    href: "https://linkedin.com/in/ShahmeerSaud"
   },
   {
     icon: Github,
@@ -40,9 +40,9 @@ const contactInfo = [
   },
   {
     icon: MapPin,
-    title: "Location",
-    value: "New Brunswick, NJ",
-    href: null
+    title: "Phone & Location",
+    value: "(732) 447-4340 • New Brunswick, NJ",
+    href: "tel:+17324474340"
   }
 ];
 

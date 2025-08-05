@@ -48,19 +48,19 @@ const certifications = [
   {
     icon: Award,
     title: "Fundraising Leadership",
-    issuer: "Raised $105,000+ for Organizations",
+    issuer: "Raised $120,000+ for Organizations",
     color: "text-indigo-600"
   },
   {
     icon: Medal,
-    title: "Double Major",
-    issuer: "Computer Science & Finance",
+    title: "Game Development",
+    issuer: "5,000+ Plugin Downloads",
     color: "text-emerald-600"
   },
   {
     icon: Trophy,
-    title: "Community Leader",
-    issuer: "Multiple Organization Chair Roles",
+    title: "AI/ML Research",
+    issuer: "Current Research Position",
     color: "text-amber-600"
   }
 ];

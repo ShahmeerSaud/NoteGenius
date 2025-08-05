@@ -8,39 +8,40 @@ export default function About() {
 Shahmeer Saud - Resume
 
 EDUCATION
-Rutgers University
+Rutgers University - School of Arts & Science & Business School
 Bachelor of Science in Computer Science & Finance
-Double Major | Expected Graduation: May 2026
+3.5 GPA | Expected Graduation: May 2027
+
+WORK EXPERIENCE
+AI/ML Researcher - Remote/New Brunswick, NJ (June 2025-Present)
+• Designed and delivered end-to-end AI/ML projects with theoretical explanations
+• Developed projects covering data preprocessing, model selection, training, hyperparameter tuning
+• Managed project timelines with weekly mentor reviews
+
+Independent Game Plugin Developer - Remote (September 2019-Present)
+• Developed plugins for games and content creators, enhancing gameplay and UIs
+• Surpassed 5,000 downloads with endorsements from leading content creators
+• Collaborated with global team using C++, C, Unity, Blender, and VS Code
 
 LEADERSHIP EXPERIENCE
 ICEB Academy - Youth Teacher (September 2021 - Present)
 • Organized successful fundraiser, raising over $100,000 for educational trips
-• Contributed to academy's expansion through strategic planning
-
 Pakistani Student Association - Fundraising Chair (September 2023 - Present)
-• Led multiple successful fundraising events, raising over $5,000
-• Managed organization budget and financial planning
-
+• Led fundraising events raising over $5,000 for association initiatives
 Future Leaders Of Islam - Fundraising Chair (September 2023 - Present)
-• Managed social media presence and organizational budget
-• Organized community events consistently attracting 50+ participants
+• Managed social media and organized events attracting 50+ participants
 
 TECHNICAL SKILLS
-Programming: Python, Java, JavaScript, HTML/CSS, C/C++/C#, PowerShell, Swift
-Tools & Software: Unity, Blender, AWS, JIRA, MongoDB, Git, Adobe Suite, Microsoft Suite
-Specializations: Machine Learning, Data Analysis, Cybersecurity, Full-Stack Development
+Programming: Python, Java, JavaScript, HTML/CSS, C/C++/C#, PowerShell
+Tools: Unity, Blender, AWS, JIRA, MongoDB, Slack, Adobe Suite, Microsoft Suite, Git
 
 PROJECTS
-• Algorithmic Trading Bot - Python-based bot using RSI and MACD indicators
-• Course Planner AI - Smart recommendation system for academic planning
-• Portfolio Analysis Dashboard - React + D3.js financial visualization tool
-• Digit Recognition (MNIST) - CNN model using TensorFlow/Keras
-• Decentralized Lending App - Ethereum dApp with Solidity smart contracts
+• Network Router Simulation - Java-based router using HashMaps and routing tables
+• Dictionary Attack Tool - Python cybersecurity tool with MD5 hashing
+• Knight's Crust - Full-stack Flask/React application with comprehensive testing
 
-Contact: ShahmeerSaud.internship@gmail.com
-LinkedIn: linkedin.com/in/shahmeersaud
-GitHub: github.com/ShahmeerSaud
-Location: New Brunswick, NJ
+Contact: shahmeersaud.internship@gmail.com | Phone: (732)-447-4340
+LinkedIn: linkedin.com/in/ShahmeerSaud | GitHub: github.com/ShahmeerSaud
     `;
 
     const blob = new Blob([resumeContent], { type: 'text/plain' });
@@ -77,7 +78,7 @@ Location: New Brunswick, NJ
               </p>
               
               <p>
-                As a Fundraising Chair for multiple organizations, I've successfully raised over $105,000 for various initiatives. When I'm not coding or leading community events, you'll find me exploring the latest developments in AI, cybersecurity, and fintech innovation.
+                As a Fundraising Chair for multiple organizations, I've successfully raised over $120,000 for various initiatives. When I'm not coding or leading community events, you'll find me exploring the latest developments in AI, cybersecurity, and fintech innovation.
               </p>
             </div>
             

@@ -12,31 +12,31 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     id: 1,
-    title: "Youth Teacher",
-    company: "ICEB Academy",
-    period: "September 2021 - Present",
-    description: "Organized a successful fundraiser, raising over $100,000 for educational trips, contributing to the academy's expansion. Led educational initiatives and mentored young students in academic and personal development.",
-    technologies: ["Leadership", "Fundraising", "Education"],
+    title: "AI/ML Researcher",
+    company: "Research Position",
+    period: "June 2025 - Present",
+    description: "Designed and delivered end-to-end AI/ML projects using datasets, with theoretical explanations and performance evaluations. Developed projects covering data preprocessing, model selection, training, and hyperparameter tuning.",
+    technologies: ["Python", "Machine Learning", "Data Science"],
     color: "bg-indigo-600",
     side: 'left'
   },
   {
     id: 2,
-    title: "Fundraising Chair",
-    company: "Pakistani Student Association",
-    period: "September 2023 - Present",
-    description: "Led multiple successful fundraising events as Fundraising Chair, raising over $5,000 to support the Pakistani Student Association's initiatives. Managed organization budget and coordinated community outreach programs.",
-    technologies: ["Event Planning", "Budget Management", "Community Outreach"],
+    title: "Independent Game Plugin Developer",
+    company: "Remote Developer",
+    period: "September 2019 - Present",
+    description: "Developed and managed plugins for games and content creators, enhancing gameplay and user interfaces. Surpassed 5,000 downloads and installations, receiving endorsements from top content creators.",
+    technologies: ["C++", "Unity", "Game Development"],
     color: "bg-emerald-600",
     side: 'right'
   },
   {
     id: 3,
-    title: "Fundraising Chair",
-    company: "Future Leaders Of Islam",
-    period: "September 2023 - Present",
-    description: "Managed FLOI's social media presence and budget while organizing impactful community events that consistently attracted over 50 participants. Developed strategic marketing initiatives and community engagement programs.",
-    technologies: ["Social Media", "Event Management", "Marketing"],
+    title: "Youth Teacher",
+    company: "ICEB Academy",
+    period: "September 2021 - Present",
+    description: "Organized a successful fundraiser, raising over $100,000 for educational trips, contributing to the academy's expansion. Led educational initiatives and mentored young students in academic development.",
+    technologies: ["Leadership", "Fundraising", "Education"],
     color: "bg-purple-600",
     side: 'left'
   },
@@ -45,8 +45,8 @@ const experiences: ExperienceItem[] = [
     title: "CS & Finance Student",
     company: "Rutgers University",
     period: "2021 - Present",
-    description: "Pursuing double major in Computer Science and Finance at Rutgers University. Active member of Pakistani Student Association and engaged in multiple leadership roles while maintaining academic excellence.",
-    technologies: ["Double Major", "Leadership", "Academic Excellence"],
+    description: "Pursuing double major in Computer Science and Finance at Rutgers University School of Arts & Science & Business School. Maintaining 3.5 GPA with expected graduation in May 2027.",
+    technologies: ["3.5 GPA", "Double Major", "Leadership"],
     color: "bg-amber-600",
     side: 'right'
   }

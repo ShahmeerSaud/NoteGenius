@@ -72,7 +72,7 @@ export default function Hero() {
               <Github className="h-8 w-8" />
             </a>
             <a 
-              href="mailto:ShahmeerSaud.internship@gmail.com"
+              href="mailto:shahmeersaud.internship@gmail.com"
               className="text-gray-600 hover:text-indigo-600 text-2xl transition-colors duration-300"
             >
               <Mail className="h-8 w-8" />

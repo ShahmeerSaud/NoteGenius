@@ -19,7 +19,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-gray-900">
             <a href="#" className="hover:text-indigo-600 transition-colors duration-300">
-              Alex Johnson
+              Shahmeer Saud
             </a>
           </div>
           

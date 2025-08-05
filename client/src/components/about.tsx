@@ -5,45 +5,49 @@ export default function About() {
   const handleResumeDownload = () => {
     // Create a downloadable resume file
     const resumeContent = `
-Alex Johnson - Resume
+Shahmeer Saud - Resume
 
 EDUCATION
-State University
+Rutgers University
 Bachelor of Science in Computer Science & Finance
-GPA: 3.8/4.0 | Expected Graduation: May 2025
+Double Major | Expected Graduation: May 2026
 
-EXPERIENCE
-Goldman Sachs - Software Engineering Intern (Summer 2023)
-Morgan Stanley - Data Analyst Intern (Summer 2022)
-State University - Research Assistant (Spring 2023)
+LEADERSHIP EXPERIENCE
+ICEB Academy - Youth Teacher (September 2021 - Present)
+• Organized successful fundraiser, raising over $100,000 for educational trips
+• Contributed to academy's expansion through strategic planning
 
-SKILLS
-Programming: Python, JavaScript, Java, Solidity, SQL
-Web Development: React, Node.js, Express, TypeScript
-Data & AI: Pandas, NumPy, TensorFlow, Scikit-learn
-Finance: Financial Modeling, Risk Analysis, Options Pricing
+Pakistani Student Association - Fundraising Chair (September 2023 - Present)
+• Led multiple successful fundraising events, raising over $5,000
+• Managed organization budget and financial planning
+
+Future Leaders Of Islam - Fundraising Chair (September 2023 - Present)
+• Managed social media presence and organizational budget
+• Organized community events consistently attracting 50+ participants
+
+TECHNICAL SKILLS
+Programming: Python, Java, JavaScript, HTML/CSS, C/C++/C#, PowerShell, Swift
+Tools & Software: Unity, Blender, AWS, JIRA, MongoDB, Git, Adobe Suite, Microsoft Suite
+Specializations: Machine Learning, Data Analysis, Cybersecurity, Full-Stack Development
 
 PROJECTS
-• Algorithmic Trading Bot - Python-based autonomous trading system
-• Portfolio Analytics Dashboard - React application with real-time data visualization
-• DeFi Lending Platform - Decentralized lending protocol on Ethereum
-• Credit Risk Assessment AI - ML model with 94% accuracy in default prediction
+• Algorithmic Trading Bot - Python-based bot using RSI and MACD indicators
+• Course Planner AI - Smart recommendation system for academic planning
+• Portfolio Analysis Dashboard - React + D3.js financial visualization tool
+• Digit Recognition (MNIST) - CNN model using TensorFlow/Keras
+• Decentralized Lending App - Ethereum dApp with Solidity smart contracts
 
-CERTIFICATIONS
-• AWS Cloud Practitioner
-• CFA Level I Candidate
-• FinTech Innovation Hackathon Winner 2023
-
-Contact: alex.johnson@university.edu
-LinkedIn: linkedin.com/in/alex-johnson
-GitHub: github.com/alexjohnson
+Contact: ShahmeerSaud.internship@gmail.com
+LinkedIn: linkedin.com/in/shahmeersaud
+GitHub: github.com/ShahmeerSaud
+Location: New Brunswick, NJ
     `;
 
     const blob = new Blob([resumeContent], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'Alex_Johnson_Resume.txt';
+    a.download = 'Shahmeer_Saud_Resume.txt';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -65,15 +69,15 @@ GitHub: github.com/alexjohnson
             
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>
-                I'm a driven Computer Science and Finance student at <span className="font-semibold text-gray-800">State University</span>, combining analytical thinking with technical expertise to solve complex problems in the financial technology space.
+                I'm a driven Computer Science and Finance student at <span className="font-semibold text-gray-800">Rutgers University</span>, combining analytical thinking with technical expertise to solve complex problems in the financial technology space.
               </p>
               
               <p>
-                My academic journey has equipped me with a unique perspective on how technology can revolutionize financial markets. From algorithmic trading systems to blockchain applications, I'm passionate about building solutions that make financial services more accessible and efficient.
+                My academic journey and leadership experience in various organizations have equipped me with a unique perspective on how technology can revolutionize financial markets. From algorithmic trading systems to machine learning applications, I'm passionate about building solutions that make financial services more accessible and efficient.
               </p>
               
               <p>
-                When I'm not coding or analyzing market trends, you'll find me contributing to open-source projects, participating in hackathons, or exploring the latest developments in DeFi and machine learning.
+                As a Fundraising Chair for multiple organizations, I've successfully raised over $105,000 for various initiatives. When I'm not coding or leading community events, you'll find me exploring the latest developments in AI, cybersecurity, and fintech innovation.
               </p>
             </div>
             
@@ -104,7 +108,7 @@ GitHub: github.com/alexjohnson
             <div className="relative">
               <img 
                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800" 
-                alt="Alex Johnson - Professional headshot" 
+                alt="Shahmeer Saud - Professional headshot" 
                 className="rounded-2xl shadow-2xl w-full max-w-md mx-auto transform hover:scale-105 transition-transform duration-300"
               />
               

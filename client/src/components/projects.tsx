@@ -21,65 +21,64 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Algorithmic Trading Bot",
-    description: "Python-based autonomous trading system using machine learning algorithms to analyze market patterns and execute trades based on technical indicators like RSI, MACD, and Bollinger Bands.",
+    description: "Built a Python-based bot that executes trades on a simulated market using RSI and MACD technical indicators to mimic real-world trading behavior.",
     image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
     category: "fintech",
-    technologies: ["Python", "Pandas", "Scikit-learn", "APIs"],
+    technologies: ["Python", "RSI", "MACD", "Trading APIs"],
     date: "Dec 2023",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ShahmeerSaud",
     liveUrl: "#"
   },
   {
     id: 2,
-    title: "Portfolio Analytics Dashboard",
-    description: "Interactive React application with real-time data visualization for portfolio performance tracking, risk analysis, and asset allocation optimization using D3.js and Chart.js.",
+    title: "Course Planner AI",
+    description: "Designed a smart course recommendation system that suggests optimal classes based on completed coursework and degree requirements.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
     category: "web",
-    technologies: ["React", "D3.js", "Node.js", "MongoDB"],
+    technologies: ["Python", "Machine Learning", "Flask", "SQLite"],
     date: "Nov 2023",
-    githubUrl: "#",
+    githubUrl: "https://github.com/ShahmeerSaud",
     liveUrl: "#"
   },
   {
     id: 3,
-    title: "DeFi Lending Platform",
-    description: "Decentralized lending protocol built on Ethereum with Solidity smart contracts, featuring automated liquidation, yield farming, and a React-based Web3 frontend interface.",
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
-    category: "blockchain",
-    technologies: ["Solidity", "Ethereum", "Web3.js", "Hardhat"],
+    title: "Portfolio Analysis Dashboard",
+    description: "Developed a React + D3.js dashboard to visualize portfolio performance, asset allocation, and financial risk metrics interactively.",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
+    category: "fintech",
+    technologies: ["React", "D3.js", "Node.js", "Financial APIs"],
     date: "Oct 2023",
-    githubUrl: "#"
+    githubUrl: "https://github.com/ShahmeerSaud"
   },
   {
     id: 4,
-    title: "Credit Risk Assessment AI",
-    description: "Machine learning model for credit risk assessment using ensemble methods, achieving 94% accuracy in default prediction with explainable AI features for regulatory compliance.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
-    category: "fintech",
-    technologies: ["TensorFlow", "XGBoost", "Python", "SHAP"],
+    title: "Digit Recognition (MNIST)",
+    description: "Trained a convolutional neural network using TensorFlow/Keras to accurately classify handwritten digits from the MNIST dataset.",
+    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
+    category: "web",
+    technologies: ["TensorFlow", "Keras", "Python", "CNN"],
     date: "Sep 2023",
-    githubUrl: "#"
+    githubUrl: "https://github.com/ShahmeerSaud"
   },
   {
     id: 5,
-    title: "Personal Finance Tracker",
-    description: "Full-stack web application for personal finance management with budget tracking, expense categorization, and investment portfolio monitoring using modern web technologies.",
-    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
-    category: "web",
-    technologies: ["Next.js", "TypeScript", "PostgreSQL", "Prisma"],
+    title: "Decentralized Lending App",
+    description: "Created a dApp on Ethereum using Solidity smart contracts and Web3.js to simulate peer-to-peer lending in a decentralized finance ecosystem.",
+    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
+    category: "blockchain",
+    technologies: ["Solidity", "Ethereum", "Web3.js", "React"],
     date: "Aug 2023",
-    githubUrl: "#",
-    liveUrl: "#"
+    githubUrl: "https://github.com/ShahmeerSaud"
   },
   {
     id: 6,
-    title: "NFT Marketplace",
-    description: "Decentralized NFT marketplace with minting, trading, and auction features. Built with smart contracts and IPFS for metadata storage, featuring low gas optimization.",
-    image: "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
-    category: "blockchain",
-    technologies: ["Solidity", "React", "IPFS", "OpenZeppelin"],
+    title: "Knight's Crust",
+    description: "Engineered a full-stack application with a Flask backend and React frontend, integrating unit tests, interface-based design patterns, and black-box testing for reliability.",
+    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=600",
+    category: "web",
+    technologies: ["Flask", "React", "Python", "Unit Testing"],
     date: "Jul 2023",
-    githubUrl: "#"
+    githubUrl: "https://github.com/ShahmeerSaud"
   }
 ];
 

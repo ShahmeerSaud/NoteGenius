@@ -1,0 +1,38 @@
+Algorithmic Trading Bot
+Built a Python-based bot that executes trades on a simulated market using RSI and MACD technical indicators to mimic real-world trading behavior.
+
+Course Planner AI
+Designed a smart course recommendation system that suggests optimal classes based on completed coursework and degree requirements.
+
+Time Series Forecasting
+Forecasted stock prices using ARIMA models, visualized trends, and evaluated accuracy using MAE and MAPE metrics.
+
+Portfolio Analysis Dashboard
+Developed a React + D3.js dashboard to visualize portfolio performance, asset allocation, and financial risk metrics interactively.
+
+Digit Recognition (MNIST)
+Trained a convolutional neural network using TensorFlow/Keras to accurately classify handwritten digits from the MNIST dataset.
+
+Sentiment Analysis on Tweets
+Built an NLP model to classify tweet sentiments into positive, negative, or neutral using precision, recall, F1-score, and AUC-ROC for evaluation.
+
+Wine Quality Prediction
+Created a classification model to predict wine quality based on physicochemical features using scikit-learn.
+
+Mac Diagnostic Tool (Planned)
+Planning a system diagnostic tool for macOS to detect issues related to WiFi, storage, and general slowness, aimed at helping non-technical users.
+
+UrbanPonics Externship
+Contributed to a nonprofit’s strategy by building a skill flag system for volunteers, optimizing job descriptions, and managing their social media planning.
+
+Decentralized Lending App
+Created a dApp on Ethereum using Solidity smart contracts and Web3.js to simulate peer-to-peer lending in a decentralized finance ecosystem.
+
+Network Router Simulation
+Built a Java-based network router simulator using HashMaps and routing tables to model dynamic packet forwarding and IP allocation.
+
+Dictionary Attack Tool
+Developed a Python tool with MD5 hashing and HashMaps to simulate dictionary attacks and highlight weak password vulnerabilities.
+
+Knight's Crust
+Engineered a full-stack application with a Flask backend and React frontend, integrating unit tests, interface-based design patterns, and black-box testing for reliability.

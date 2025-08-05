@@ -1,6 +1,6 @@
 # Overview
 
-This is a modern portfolio website for Alex Johnson, a Computer Science & Finance student. The application is a full-stack single-page application built with React on the frontend and Express on the backend, showcasing projects, skills, experience, and providing a contact form for potential employers and collaborators.
+This is a modern portfolio website for Shahmeer Saud, a Computer Science & Finance student at Rutgers University. The application is a full-stack single-page application built with React on the frontend and Express on the backend, showcasing projects, skills, leadership experience, and providing a contact form for potential employers and collaborators.
 
 # User Preferences
 

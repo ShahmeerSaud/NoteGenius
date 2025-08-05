@@ -19,48 +19,48 @@ const skillCategories: SkillCategory[] = [
     gradient: "from-blue-50 to-indigo-100",
     skills: [
       { name: "Python", level: 5 },
+      { name: "Java", level: 5 },
       { name: "JavaScript", level: 4 },
-      { name: "Java", level: 4 },
-      { name: "Solidity", level: 3 }
+      { name: "C/C++/C#", level: 4 }
     ]
   },
   {
     icon: Globe,
     title: "Web Development",
     gradient: "from-emerald-50 to-green-100",
-    skills: ["React", "Next.js", "Node.js", "Express", "TypeScript", "Tailwind CSS"]
+    skills: ["React.js", "HTML/CSS", "Flask", "Full-Stack Development", "Web Engineering", "Swift"]
   },
   {
     icon: Brain,
     title: "Data & AI",
     gradient: "from-purple-50 to-pink-100",
-    skills: ["Pandas", "NumPy", "TensorFlow", "Scikit-learn", "SQL", "MongoDB"]
+    skills: ["Machine Learning", "TensorFlow", "Data Analysis", "Deep Learning", "Model Evaluation", "Data Visualization"]
   },
   {
     icon: TrendingUp,
-    title: "Finance & Tools",
+    title: "Tools & Security",
     gradient: "from-amber-50 to-orange-100",
-    skills: ["Financial Modeling", "Risk Analysis", "Options Pricing", "Bloomberg Terminal", "Excel VBA", "Git"]
+    skills: ["AWS", "MongoDB", "Unity", "Blender", "JIRA", "Cybersecurity", "Network Security", "Git"]
   }
 ];
 
 const certifications = [
   {
     icon: Award,
-    title: "AWS Cloud Practitioner",
-    issuer: "Amazon Web Services",
+    title: "Fundraising Leadership",
+    issuer: "Raised $105,000+ for Organizations",
     color: "text-indigo-600"
   },
   {
     icon: Medal,
-    title: "CFA Level I Candidate",
-    issuer: "CFA Institute",
+    title: "Double Major",
+    issuer: "Computer Science & Finance",
     color: "text-emerald-600"
   },
   {
     icon: Trophy,
-    title: "Hackathon Winner",
-    issuer: "FinTech Innovation 2023",
+    title: "Community Leader",
+    issuer: "Multiple Organization Chair Roles",
     color: "text-amber-600"
   }
 ];

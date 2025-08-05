@@ -23,25 +23,25 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "alex.johnson@university.edu",
-    href: "mailto:alex.johnson@university.edu"
+    value: "ShahmeerSaud.internship@gmail.com",
+    href: "mailto:ShahmeerSaud.internship@gmail.com"
   },
   {
     icon: Linkedin,
     title: "LinkedIn",
-    value: "linkedin.com/in/alex-johnson",
-    href: "https://linkedin.com/in/alex-johnson"
+    value: "linkedin.com/in/shahmeersaud",
+    href: "https://linkedin.com/in/shahmeersaud"
   },
   {
     icon: Github,
     title: "GitHub",
-    value: "github.com/alexjohnson",
-    href: "https://github.com/alexjohnson"
+    value: "github.com/ShahmeerSaud",
+    href: "https://github.com/ShahmeerSaud"
   },
   {
     icon: MapPin,
     title: "Location",
-    value: "New York, NY",
+    value: "New Brunswick, NJ",
     href: null
   }
 ];
@@ -64,15 +64,25 @@ export default function Contact() {
     setIsSubmitting(true);
     
     try {
-      // Simulate form submission
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      toast({
-        title: "Message Sent!",
-        description: "Thank you for your message. I'll get back to you soon.",
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
       });
-      
-      form.reset();
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        toast({
+          title: "Message Sent!",
+          description: "Thank you for your message. I'll get back to you soon.",
+        });
+        form.reset();
+      } else {
+        throw new Error(result.message || 'Failed to send message');
+      }
     } catch (error) {
       toast({
         title: "Error",

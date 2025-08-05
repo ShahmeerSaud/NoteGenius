@@ -49,7 +49,7 @@ const certifications = [
   {
     icon: Medal,
     title: "Game Development",
-    issuer: "5,000+ Plugin Downloads",
+    issuer: "5,000+ Downloads, 50,000+ Interactions",
     color: "text-emerald-600"
   },
   {

@@ -73,7 +73,7 @@ const projects: Project[] = [
   {
     id: 6,
     title: "Game Plugin Development",
-    description: "Developed and managed plugins for games and content creators, enhancing gameplay and user interfaces. Achieved 5,000+ downloads with endorsements from leading content creators.",
+    description: "Developed and managed plugins for games and content creators, enhancing gameplay and user interfaces. Achieved 5,000+ Plugin Downloads and 50,000+ interactions with endorsements from leading content creators.",
     image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&h=600",
     category: "blockchain",
     technologies: ["C++", "C", "Unity", "Blender", "VS Code"],

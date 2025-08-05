@@ -10,7 +10,7 @@ Shahmeer Saud - Resume
 EDUCATION
 Rutgers University - School of Arts & Science & Business School
 Bachelor of Science in Computer Science & Finance
-3.5 GPA | Expected Graduation: May 2027
+Expected Graduation: May 2027
 
 WORK EXPERIENCE
 AI/ML Researcher - Remote/New Brunswick, NJ (June 2025-Present)
@@ -40,7 +40,7 @@ PROJECTS
 • Dictionary Attack Tool - Python cybersecurity tool with MD5 hashing
 • Knight's Crust - Full-stack Flask/React application with comprehensive testing
 
-Contact: shahmeersaud.internship@gmail.com | Phone: (732)-447-4340
+Contact: shahmeersaud.internship@gmail.com
 LinkedIn: linkedin.com/in/ShahmeerSaud | GitHub: github.com/ShahmeerSaud
     `;
 

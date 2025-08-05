@@ -15,32 +15,27 @@ interface SkillItem {
 const skillCategories: SkillCategory[] = [
   {
     icon: Code,
-    title: "Programming",
+    title: "Programming Languages",
     gradient: "from-blue-50 to-indigo-100",
-    skills: [
-      { name: "Python", level: 5 },
-      { name: "Java", level: 5 },
-      { name: "JavaScript", level: 4 },
-      { name: "C/C++/C#", level: 4 }
-    ]
+    skills: ["Python", "Java", "JavaScript", "HTML/CSS", "C/C++/C#", "PowerShell"]
   },
   {
     icon: Globe,
-    title: "Web Development",
+    title: "Web & Development",
     gradient: "from-emerald-50 to-green-100",
-    skills: ["React.js", "HTML/CSS", "Flask", "Full-Stack Development", "Web Engineering", "Swift"]
+    skills: ["React", "Flask", "Node.js", "TypeScript", "Full-Stack Development", "REST APIs"]
   },
   {
     icon: Brain,
     title: "Data & AI",
     gradient: "from-purple-50 to-pink-100",
-    skills: ["Machine Learning", "TensorFlow", "Data Analysis", "Deep Learning", "Model Evaluation", "Data Visualization"]
+    skills: ["Machine Learning", "TensorFlow", "Pandas", "NumPy", "Data Analysis", "Scikit-learn"]
   },
   {
     icon: TrendingUp,
-    title: "Tools & Security",
+    title: "Tools & Software",
     gradient: "from-amber-50 to-orange-100",
-    skills: ["AWS", "MongoDB", "Unity", "Blender", "JIRA", "Cybersecurity", "Network Security", "Git"]
+    skills: ["Unity", "Blender", "AWS", "JIRA", "MongoDB", "Slack", "Adobe Suite", "Microsoft Suite", "Git"]
   }
 ];
 
@@ -106,27 +101,16 @@ export default function Skills() {
                   </div>
                   <h3 className="font-bold text-xl text-gray-900 mb-4">{category.title}</h3>
                   
-                  {category.title === "Programming" ? (
-                    <div className="space-y-2">
-                      {(category.skills as SkillItem[]).map((skill) => (
-                        <div key={skill.name} className="flex items-center justify-between">
-                          <span className="text-gray-700">{skill.name}</span>
-                          <SkillDots level={skill.level} />
-                        </div>
-                      ))}
-                    </div>
-                  ) : (
-                    <div className="space-y-3">
-                      {(category.skills as string[]).map((skill) => (
-                        <span
-                          key={skill}
-                          className="inline-block bg-white text-gray-800 text-sm font-medium px-3 py-1 rounded-full mr-2 mb-2"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
-                  )}
+                  <div className="space-y-3">
+                    {(category.skills as string[]).map((skill) => (
+                      <span
+                        key={skill}
+                        className="inline-block bg-white text-gray-800 text-sm font-medium px-3 py-1 rounded-full mr-2 mb-2"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               );
             })}

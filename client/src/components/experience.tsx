@@ -45,8 +45,8 @@ const experiences: ExperienceItem[] = [
     title: "CS & Finance Student",
     company: "Rutgers University",
     period: "2021 - Present",
-    description: "Pursuing double major in Computer Science and Finance at Rutgers University School of Arts & Science & Business School. Maintaining 3.5 GPA with expected graduation in May 2027.",
-    technologies: ["3.5 GPA", "Double Major", "Leadership"],
+    description: "Pursuing double major in Computer Science and Finance at Rutgers University School of Arts & Science & Business School. Expected graduation in May 2027.",
+    technologies: ["Double Major", "Leadership", "Academic Excellence"],
     color: "bg-amber-600",
     side: 'right'
   }

@@ -40,9 +40,9 @@ const contactInfo = [
   },
   {
     icon: MapPin,
-    title: "Phone & Location",
-    value: "(732) 447-4340 • New Brunswick, NJ",
-    href: "tel:+17324474340"
+    title: "Location",
+    value: "New Brunswick, NJ",
+    href: null
   }
 ];
 

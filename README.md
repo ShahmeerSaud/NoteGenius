@@ -72,7 +72,8 @@ npm run dev
 ### Available Scripts
 
 - `npm run dev` - Start development server
-- `npm run build` - Build for production
+- `npm run build` - Build for production (full-stack)
+- `node build-github-pages.js` - Build for GitHub Pages deployment
 - `npm start` - Start production server
 - `npm run check` - Type check with TypeScript
 
@@ -119,16 +120,37 @@ The contact form is ready for integration with email services:
 
 ## 🌐 Deployment
 
-### Deploy to Vercel
+### Deploy to GitHub Pages (Recommended)
+
+This project includes a special build process for GitHub Pages deployment:
+
+1. **Build for GitHub Pages**:
+   ```bash
+   node build-github-pages.js
+   ```
+
+2. **Configure GitHub Pages**:
+   - Go to your GitHub repository → Settings → Pages
+   - Set Source to "Deploy from a branch"
+   - Select "main" branch and "/docs" folder
+   - Click Save
+
+3. **Auto-deployment with GitHub Actions**:
+   - The included `.github/workflows/deploy.yml` will automatically build and deploy on every push to main
+   - No manual building required after initial setup
+
+### Alternative Deployments
+
+#### Deploy to Vercel
 1. Push your code to GitHub
 2. Connect your GitHub repository to Vercel
 3. Deploy with default settings
 
-### Deploy to Netlify
-1. Build the project: `npm run build`
-2. Deploy the `dist` folder to Netlify
+#### Deploy to Netlify
+1. Build the project: `node build-github-pages.js`
+2. Deploy the `docs` folder to Netlify
 
-### Deploy to Replit
+#### Deploy to Replit
 1. Import the GitHub repository to Replit
 2. Run the project with the existing configuration
 

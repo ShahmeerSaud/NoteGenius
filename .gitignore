@@ -11,6 +11,9 @@ dist/
 build/
 .vite/
 
+# Keep docs folder for GitHub Pages deployment
+!docs/
+
 # Environment variables
 .env
 .env.local
